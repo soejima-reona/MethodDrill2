@@ -13,6 +13,7 @@ public class Question05 {
 
 	public static void main(String[] args) {
 
+		// Question05 動作検証
 		boolean number = isEvenNumber(2000);
 		System.out.println(number);
 	}
