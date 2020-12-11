@@ -7,11 +7,8 @@ public class Question07 {
 
 		if (isKid == true) {
 			return "こんにちは。" + name + "ちゃん。";
-		} else if (isKid == false) {
-			return "こんにちは。" + name + "さん。";
 		}
-
-		return name;
+		return "こんにちは。" + name + "さん。";
 	}
 
 	public static void main(String[] args) {

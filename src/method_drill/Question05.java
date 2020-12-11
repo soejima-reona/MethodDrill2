@@ -2,6 +2,7 @@ package method_drill;
 
 public class Question05 {
 
+	//戻り値boolean　　引数あり
 	static boolean isEvenNumber(int value) {
 
 		//引数が偶数＝true、　奇数＝false　を返す

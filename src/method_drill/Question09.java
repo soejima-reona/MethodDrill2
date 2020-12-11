@@ -8,17 +8,16 @@ public class Question09 {
 		//文字数が同じものが複数存在する場合は、配列の後ろの方の要素を優先する。
 
 		//引数の文字列を配列に入れる
-		String[] data = array;
 
 		//配列カウント
 		int count = 0;
 		//maxの文字数を格納
 		int max = 0;
 
-		for (int i = 0; i < data.length;) {
+		for (int i = 0; i < array.length;) {
 
 			//文字列を入れる（比較用）
-			String character = data[i];
+			String character = array[i];
 
 			//文字数を比較して、max以上だったら文字数と配列の要素数を保持
 			if (max <= character.length()) {
@@ -30,7 +29,7 @@ public class Question09 {
 		}
 
 		//文字列を返す
-		return "最も文字数の大きい文字列は 「" + data[count] + "」";
+		return array[count];
 	}
 
 	public static void main(String[] args) {

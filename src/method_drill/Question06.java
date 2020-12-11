@@ -2,6 +2,7 @@ package method_drill;
 
 public class Question06 {
 
+	//戻り値double 引数２
 	static double getMinValue(double a, double b) {
 
 		//引数のうち、小さいほうの値を返す

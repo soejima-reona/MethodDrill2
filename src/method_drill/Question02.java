@@ -2,6 +2,7 @@ package method_drill;
 
 public class Question02 {
 
+	//戻り値　double型　　引数あり
 	static double printCircleArea(double radius) {
 
 		//円の面積＝半径(引数)*半径(引数)*円周率

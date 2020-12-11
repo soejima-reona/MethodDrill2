@@ -6,15 +6,14 @@ public class Question08 {
 
 		//配列の平均値を返す処理
 		double sum = 0;
-		double[] data = array;
 
 		//配列数分のデータを合計(sum)
-		for (int i = 0; i < data.length; i++) {
-			sum += data[i];
+		for (int i = 0; i < array.length; i++) {
+			sum += array[i];
 		}
 
 		//平均値
-		double ave = sum / data.length;
+		double ave = sum / array.length;
 
 		return ave;
 	}

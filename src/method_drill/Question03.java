@@ -2,6 +2,7 @@ package method_drill;
 
 public class Question03 {
 
+	//戻り値なし　　引数２
 	static void printMessage(String message, int count) {
 
 		//変数iが、引数countより小さいときはメッセージ出力（countより大きくなったら抜ける）
